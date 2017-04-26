@@ -11,15 +11,15 @@
 @interface HHMusicModel : HHBaseModel
 
 
-@property (nonatomic, copy) NSString *sid;//*
+@property (nonatomic, copy) NSString *sid;
 
-@property (nonatomic, copy) NSString *picture;//歌手图片＊
+@property (nonatomic, copy) NSString *picture;
 
-@property (nonatomic, copy) NSString *url; //音乐地址 *
+@property (nonatomic, copy) NSString *url; //音乐地址
 
-@property (nonatomic, copy) NSString *artist;//歌手名字＊
+@property (nonatomic, copy) NSString *artist;
 
-@property (nonatomic, copy) NSString *length; //时间长度＊
+@property (nonatomic, copy) NSString *length; //时间长度
 
 @property (nonatomic, copy) NSString *link;     //链接
 
@@ -27,7 +27,7 @@
 
 @property (nonatomic, copy) NSString *name;
 
-@property (nonatomic, copy) NSString *title;//歌名＊
+@property (nonatomic, copy) NSString *title;
 
 @property (nonatomic, copy) NSString *type; //类型
 @property (nonatomic, copy) NSArray *singers; //类型
